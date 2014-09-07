@@ -1,0 +1,14 @@
+@(title: String, nav: String = "")(content: Html)
+
+@blank(title, nav){
+    <div class="row">
+
+
+        <div class="col-md-9 col-xs-12">
+            @content
+        </div>
+        <div class="col-md-3">
+
+        </div>
+    </div>
+}
